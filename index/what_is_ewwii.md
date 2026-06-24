@@ -1,12 +1,10 @@
 ---
 title: "What is ewwii?"
-description: "An explanation on what ewwii is and is not"
+description: "An explanation on what ewwii is and is not."
 date: 2025-09-08
 ---
 
 Ewwii is a fork of [eww (Elkowars Wacky Widgets)](https://github.com/elkowar/eww) rewritten to be more powerful, flexible, and extensible.
-
-The name Ewwii means `Elkowars Wacky Widgets Improved Interface`.
 
 ### What seperates them?
 
