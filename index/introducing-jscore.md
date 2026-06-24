@@ -26,7 +26,6 @@ update the widgets. The `api` contains all the functions that you would need to 
 Here is an example:
 
 ```js 
-
 export function after_render(api) {
     // suppose we have a widget with name 'cool-box'
     const widget = api.find("cool-box");
@@ -58,8 +57,8 @@ export function after_render(api) {
 
 ## Npm Compatibility
 
-Jscore is compatible with `npm`, `pnpm`, `yarn`, etc. Basically anything that outputs the modules inside the `node_modules` file.
-But there is a catch, the package you are trying to use should not rely on node exclusive features like `node:fs`.
+Jscore is compatible with `npm`, `pnpm`, `yarn`, etc. Basically anything that outputs the modules inside the `node_modules` directory
+with the catch being that the package you are trying to use should not rely on node exclusive features like `node:fs`.
 
 Jscore needs to load the module as a single file from a readable location. For this it uses esbuild to quickly bundle it on the fly.
 Jscore can do it automatically. Just make sure to append `esbuild:` to the name of your packages, otherwise it wont load.
